@@ -6,7 +6,7 @@ function Convert-Sepa {
       The purpose of "Convert-Sepa" is to sanitise a downloaded CSV-file from your bank-account's website.
 
       .DESCRIPTION
-      The fields Omschrijving is reused for SEPA input, which messes up a lot. This Script will create new columns according to the extra fiels used for SEPA. ('Naam: ', 'Omschrijving: ', 'IBAN: ', 'BIC: ', 'ID begunstigde: ', 'SEPA ID machtiging: ', 'Kenmerk: ', 'Machtiging ID: ', 'Incassant ID: ')
+      The fields Omschrijving is reused for SEPA input, which messes up a lot. This Script will create new columns according to the extra fields used for SEPA. ('Naam: ', 'Omschrijving: ', 'IBAN: ', 'BIC: ', 'ID begunstigde: ', 'SEPA ID machtiging: ', 'Kenmerk: ', 'Machtiging ID: ', 'Incassant ID: ')
 
       .PARAMETER filename
       Parameter -filename will be used as a sourcename and .csv will be replace by .iban.csv for destination filename.
